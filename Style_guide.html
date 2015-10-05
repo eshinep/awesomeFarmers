@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01-STYLE GUIDE</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>P01-STYLE GUIDE</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <div class="grid-col-1of2">
+      <nav>
+        <p>
+        On this page:
+        </p>
+          <a class="main-nav" href="#interactive_elements"> Interactive Elements</a>
+          <a class ="main-nav" href="#text_elements">Text Elements</a>
+          <a class = "main-nav" href="#combined_elements">Combined Elements</a>
+
+
+        <p>Other pages:</p>
+            <a class="main-nav" href="User_flows.html">User flows</a>
+            <a class="main-nav" href="Style_guide.html">Style Guide</a>
+            <a class="main-nav" href="Citations.html">Citations</a>
+      </nav>
+    </div>
+
+
+    <div class="grid-col-2of2">
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section id="interactive_elements">
+
+        <!-- Default Button styling section -->
+        <section>
+
+          <h2>Navigation Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.button-nav</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="button"&gt;Buy&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="button-nav" href="#">Buy</a>
+
+        </section>
+
+        <section>
+          <h2>In-text link</h2>
+
+          <h3>CSS selector:</h3>
+            <p>.link</p>
+
+          <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="link"&gt;email us&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+
+            <p>Got any questions or concerns? <a class="link" href="">email us</a></p>
+        </section>
+
+
+        <section>
+          <h2>Submit/Reset Buttons</h2>
+
+          <h3>CSS selector:</h3>
+            <p>.button-sub, .button-reset</p>
+
+          <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="button-sub"&gt;Submit&lt;/a&gt;</code>
+            <code>&lt;a href="#" class="button-reset"&gt;Reset&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+            <a class="button-sub" href="#">Submit</a>
+            <a class="button-reset" href="#">Reset</a>
+        </section>
+
+        <section>
+          <h2>Text Input Field</h2>
+        
+          <h3>CSS selector:</h3>
+            <p>label</p>
+
+          <h3>Sample code:</h3>
+            <code>&lt;textarea id="form-comment" placeholder="Please let use know"&gt;</textarea></code>
+
+          <h3>Rendered element:</h3>
+           <label for="form-comment"> <h2>Any allergies ?</h2></label>
+            <textarea id="form-comment" placeholder="Please let us know"></textarea>
+        </section>
+
+      </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+        <p>h1</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1&gt;FARMER&lt;/h2&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1>FARMER</h1>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        
+        <h3>CSS selector:</h3>
+        <p>section p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</textarea></code>
+
+        <h3>Rendered element:</h3>
+        <p> 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ul, li</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;ul&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;li&gt;item 3&lt;/li&gt;
+        &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li> item 1</li>
+          <li> item 2</li>
+          <li> item 3</li>
+        </ul>  
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ol, li</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;ol&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;li&gt;item 3&lt;/li&gt;
+        &lt;/ol&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li> item 1</li>
+          <li> item 2</li>
+          <li> item 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.main-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="main-nav" href="#"&gt; Home &lt;/a&gt;</textarea></code>
+
+        <h2>Rendered Element</h2>
+        <a class="main-nav" hreh="#"> Home </a>
+        <a class="main-nav" hreh="#"> Categories </a>
+        <a class="main-nav" hreh="#"> My Account </a>
+
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.main-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt; &lt;img src="img/orange.png" class= "product-img"&gt; &lt;/a&gt; </textarea></code>
+
+        <h3>Rendered Element</h3>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+        <a href="#">
+        <img src="img/orange.png" class= "product-img"> </a>
+  
+      </section>
+
+      <section>
+        <h2>Grid Structure</h2>
+
+        <p>
+          Smartwatch:
+        </p>
+
+        <p>
+          1 colume structure
+        </p>
+
+        <p>
+          Mobile:
+        </p>
+
+        <p>
+          1 colume structure
+        </p>
+
+        <p>
+          4K Display:
+        </p>
+
+        <p>
+          3 colume structure, 1 for main navigation, 2 for content
+        </p>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+    </div>
+
+
+
+  </body>
+</html>

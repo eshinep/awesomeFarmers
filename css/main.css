@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'bobberregular';
+    src: url('bobber-webfont.eot');
+    src: url('bobber-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bobber-webfont.woff2') format('woff2'),
+         url('bobber-webfont.woff') format('woff'),
+         url('bobber-webfont.ttf') format('truetype'),
+         url('bobber-webfont.svg#bobberregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arial_narrowregular';
+    src: url('arial_narrow-webfont.eot');
+    src: url('arial_narrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial_narrow-webfont.woff2') format('woff2'),
+         url('arial_narrow-webfont.woff') format('woff'),
+         url('arial_narrow-webfont.ttf') format('truetype'),
+         url('arial_narrow-webfont.svg#arial_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arial_narrowbold';
+    src: url('arial_narrow_bold-webfont.eot');
+    src: url('arial_narrow_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial_narrow_bold-webfont.woff2') format('woff2'),
+         url('arial_narrow_bold-webfont.woff') format('woff'),
+         url('arial_narrow_bold-webfont.ttf') format('truetype'),
+         url('arial_narrow_bold-webfont.svg#arial_narrowbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+
+.grid-col-1of2 {
+  float: left;
+  text-align: left;
+  width: 20%;
+
+}
+
+.grid-col-2of2 {
+  float: right;
+  text-align: left;
+  width: 80%;
+}
+
+
+h1 {
+  font-family: 'bobberregular';
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #D17E3A;
+}
+
+body {
+  background-color: #EFE8D5;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333; 
+}
+
+
+section h2 {
+  font-family: 'arial_narrowbold';
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #AEBD96;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'arial_narrowregular';
+  color: #6B5C3B;
+  margin-top: 0;
+  max-width: 50%;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+
+.button-nav, .button-sub, .button-reset {
+  font-family: 'arial_narrowbold';
+  font-size: 1em;
+  display: inline-block;
+  width: 3.3em;
+  height: 2em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  color: #FFF;
+  background-color: #EFE8D5;
+  border-radius: 3em;
+  border: 0.2em solid #AEBD96;
+  text-decoration: none;
+  text-align: center;
+  color: #AEBD96;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus, .button-sub:hover, .button-sub:focus, .button-reset:hover, .button-reset:focus {
+  background-color: #AEBD96;
+  color: #EFE8D5;
+  border: 0.2em solid #AEBD96;
+}
+
+.link {
+  color: #AEBD96;
+}
+
+.link:hover, .link:focus {
+  color: #D17E3A;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+form {
+    display: inline-block;
+    padding: 1em;
+}
+
+label, input {
+  display: block;
+}
+
+li {
+  font-color:#AEBD96;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+.main-nav {
+  font-family: 'arial_narrowbold';
+  display: block;
+  width: 8em;
+  background-color: #AEBD96;
+  color: #FFFFFF;
+  padding: 1em 1.25em;
+  border: 0.1em solid #AEBD96;
+  text-decoration: none;
+}
+
+
+.main-nav:hover, .main-nav:focus {
+  background-color: #EFE8D5;
+  color: #AEBD96;
+  border: 0.1em solid #AEBD96;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+ul, li, ol, {
+  font-family: 'arial_narrowregular';
+  color: #6B5C3B
+}
+
+
+.product-img {
+  display: inline-block;
+  width: 8em;
+  height: 8em;
+  margin: 1em;
+}
+
+
+.product-link{
+  display: inline-block;
+  width: 8em;
+  height: 7em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  border-radius: 3em;
+  border: 0.2em solid #AEBD96;
+}
+
+/* IMAGE ELEMENTS */
+
+.userflow_img {
+  margin-bottom: 1em;
+  border:0.2em solid #AEBD96;
+  display: inline-block;
+  width: 80%;
+}
