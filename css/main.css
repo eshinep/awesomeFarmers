@@ -50,10 +50,12 @@
 */
 
 
+
 .grid-col-1of2 {
   float: left;
   text-align: left;
   width: 20%;
+  display:inline-block;
 
 }
 
@@ -61,7 +63,15 @@
   float: right;
   text-align: left;
   width: 80%;
+  display:inline-block;
 }
+
+.grid-col-1of2:after, .grid-col-2of2:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 
 h1 {
@@ -172,6 +182,8 @@ cite {
 
 .link {
   color: #AEBD96;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
 .link:hover, .link:focus {
@@ -243,6 +255,33 @@ ul, li, ol, {
   border: 0.2em solid #AEBD96;
 }
 
+.one_col_struct {
+
+  background-color: #AEBD96; 
+  width: 8em;
+  height: 16em;
+  text-align: center;
+}
+
+.three_col_struct {
+
+  background-color: #AEBD96; 
+  width: 8em;
+  height: 16em;
+  margin-right: 1.2em;
+  margin-bottom: 0.5em;
+  float: left;
+
+}
+
+#three_column:after{
+
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 /* IMAGE ELEMENTS */
 
 .userflow_img {
@@ -251,3 +290,5 @@ ul, li, ol, {
   display: inline-block;
   width: 80%;
 }
+
+
