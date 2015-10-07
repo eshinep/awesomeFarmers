@@ -291,4 +291,9 @@ ul, li, ol, {
   width: 80%;
 }
 
+.sitemap_img {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 90%;
+}
 
