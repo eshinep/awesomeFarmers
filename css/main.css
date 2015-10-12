@@ -49,7 +49,19 @@
   Default styling for the style guide 
 */
 
+.grid-row-1of2{
+  background-color: #D17E3A;
+  float: top;
+  width: 100%;
+  height: 3em;
+  display: block;
+}
 
+.grid-row-2of2{
+  width: 100%;
+  display: block;
+  position: fixed;
+}
 
 .grid-col-1of2 {
   float: left;
@@ -222,8 +234,19 @@ li {
   text-decoration: none;
 }
 
+.main-nav-desktop {
+  font-family: 'arial_narrowbold';
+  display: inline-block;
+  width: 8em;
+  background-color: #AEBD96;
+  color: #FFFFFF;
+  padding: 1em 1.25em;
+  border: 0.1em solid #AEBD96;
+  text-decoration: none;
+}
 
-.main-nav:hover, .main-nav:focus {
+
+.main-nav:hover, .main-nav:focus,.main-nav-desktop:hover,.main-nav-desktop:focus {
   background-color: #EFE8D5;
   color: #AEBD96;
   border: 0.1em solid #AEBD96;
@@ -294,6 +317,6 @@ ul, li, ol, {
 .sitemap_img {
   margin-bottom: 1em;
   display: inline-block;
-  width: 90%;
+  width: 100%;
 }
 
