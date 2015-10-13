@@ -1,0 +1,229 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'bobberregular';
+    src: url('bobber-webfont.eot');
+    src: url('bobber-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bobber-webfont.woff2') format('woff2'),
+         url('bobber-webfont.woff') format('woff'),
+         url('bobber-webfont.ttf') format('truetype'),
+         url('bobber-webfont.svg#bobberregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arial_narrowregular';
+    src: url('arial_narrow-webfont.eot');
+    src: url('arial_narrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial_narrow-webfont.woff2') format('woff2'),
+         url('arial_narrow-webfont.woff') format('woff'),
+         url('arial_narrow-webfont.ttf') format('truetype'),
+         url('arial_narrow-webfont.svg#arial_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arial_narrowbold';
+    src: url('arial_narrow_bold-webfont.eot');
+    src: url('arial_narrow_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial_narrow_bold-webfont.woff2') format('woff2'),
+         url('arial_narrow_bold-webfont.woff') format('woff'),
+         url('arial_narrow_bold-webfont.ttf') format('truetype'),
+         url('arial_narrow_bold-webfont.svg#arial_narrowbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body {
+
+	background-color: #EFE8D5;
+
+}
+
+nav {
+
+	position: fixed;
+	padding-top: 5%;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	background-color: #AEBD96;
+
+}
+
+h1 {
+
+	position: static;
+	font-family: 'bobberregular';
+	font-size: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: #D17E3A;
+}
+
+.main-nav {
+  font-family: 'arial_narrowbold';
+  display: block;
+  width: 80%;
+  background-color: #AEBD96;
+  color: #FFFFFF;
+  padding: 1em 1.25em;
+  border: 0.1em solid #AEBD96;
+  text-decoration: none;
+}
+
+.main-nav:hover, .main-nav:focus {
+  background-color: #EFE8D5;
+  color: #AEBD96;
+  border: 0.1em solid #AEBD96;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+
+
+.grid {
+
+	margin-left: 20%;
+
+}
+
+[class^='grid-row'] {
+	width: 100%;
+  display: block;
+  margin-bottom: 2em;
+}
+
+.grid-row-1of1{
+  width: 100%;
+  height: 3em;
+  text-align: center;
+  display: block;
+  margin-bottom: 3em;
+}
+
+
+
+
+section h2 {
+  font-family: 'arial_narrowbold';
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #AEBD96;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'arial_narrowregular';
+  color: #6B5C3B;
+  margin-top: 0;
+  max-width: 100%;
+}
+
+ul, li, ol, {
+  font-family: 'arial_narrowregular';
+  color: #6B5C3B
+}
+
+.product-img {
+  display: inline-block;
+  width: 8em;
+  height: 8em;
+  margin: 1em;
+}
+
+
+.product-link{
+  display: inline-block;
+  width: 8em;
+  height: 7em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  border-radius: 3em;
+  border: 0.2em solid #AEBD96;
+}
+
+.button-nav, .button-sub, .button-reset {
+  font-family: 'arial_narrowbold';
+  font-size: 1em;
+  display: inline-block;
+  width: 3.3em;
+  height: 3.1em;
+  padding-top: 0.7em;
+  padding-bottom: 0.2em;
+  color: #FFF;
+  background-color: #EFE8D5;
+  border-radius: 3em;
+  border: 0.2em solid #AEBD96;
+  text-decoration: none;
+  text-align: center;
+  color: #AEBD96;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus, .button-sub:hover, .button-sub:focus, .button-reset:hover, .button-reset:focus {
+  background-color: #AEBD96;
+  color: #EFE8D5;
+  border: 0.2em solid #AEBD96;
+}
+
+
+@media (max-width: 42em) {
+
+	nav {
+
+		position: static;
+		width: 100%;
+	}
+
+	.main-nav {
+		display: inline-block;
+		width: 100%;
+		margin: 0, auto;
+		text-align: center;
+
+	}
+
+	.grid {
+
+		margin-left: 0;
+	}
+
+	h1 {
+
+		text-align: center;
+	}
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+	position: static;
+}
+/*
+670 px is phone
+670 /16 for em
+*/
