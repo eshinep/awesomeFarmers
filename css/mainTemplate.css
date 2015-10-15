@@ -64,7 +64,7 @@ nav {
 	left: 0;
 	width: 20%;
 	height: 100%;
-	background-color: #AEBD96;
+	background-color: #F2F2F2;
 
 }
 
@@ -102,16 +102,16 @@ figure img {
   font-family: 'arial_narrowbold';
   display: block;
   width: 80%;
-  background-color: #AEBD96;
-  color: #FFFFFF;
+  background-color: #F2F2F2;
+  color: #AEBD96;
   padding: 1em 1.25em;
-  border: 0.1em solid #AEBD96;
+  border-right: 0.1em solid #AEBD96;
   text-decoration: none;
 }
 
 .main-nav:hover, .main-nav:focus {
-  background-color: #EFE8D5;
-  color: #AEBD96;
+  background-color: #AEBD96;
+  color: #F2F2F2;
   border: 0.1em solid #AEBD96;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -140,12 +140,24 @@ figure img {
   text-align: center;
   display: block;
   margin-bottom: 3em;
-  
-
 
 }
 
 
+[class^='grid-col'] {
+  width: 50%;
+  display: inline-block;
+  position: static;
+  height: 3em;
+  text-align: center;
+  margin-bottom: 3em;
+
+}
+
+.grid-col-1of2 {
+
+  float: left;
+}
 
 
 section h2 {
@@ -259,6 +271,12 @@ figcaption{
 
 }
 
+.main-nav.activeLink, .main-nav.activeLink:hover, .main-nav.activeLink:focus {
+  background-color: #AEBD96;
+  color: #F2F2F2;
+  border: 0.1em solid #AEBD96;
+}
+
 
 
 @media (max-width: 42em) {
@@ -286,6 +304,13 @@ figcaption{
 
 		text-align: center;
 	}
+
+  .grid-col-1of2{
+
+    float: none;
+    
+  }
+
 }
 
 

@@ -18,7 +18,7 @@
       <a class="main-nav" href="news.html"> News</a>
       <a class ="main-nav" href="browse.html">Browse</a>
       <a class = "main-nav" href="cart.html">My Cart</a>
-      <a class= "main-nav" href="#">Login/Join </a>
+      <a class= "main-nav activeLink" href="#">Login/Join </a>
       <a class= "main-nav" href="contact.html">Contact Us </a>
 
     </nav>
@@ -27,21 +27,39 @@
 
       <div class="grid-row-1of1">
 
-        <h1>Join/Login</h1>
 
-        <section>
-         <h2>Name </h2>
-         <textarea id="name" placeholder="Name"></textarea>
+        <div class="grid-col-1of2">
+          <h1>Join</h1>
 
-         <h2>Address </h2>
-         <textarea id="name" placeholder="Adress"></textarea>
+          <section>
+           <h2>Name </h2>
+           <textarea id="name" placeholder="Name"></textarea> <!--change the ID -->
 
-          <label for="form-comment"> <h2>Any allergies ?</h2></label>
-          <textarea id="form-comment" placeholder="Please let us know"></textarea>
-      </section>
+           <h2>Address </h2>
+           <textarea id="name" placeholder="Adress"></textarea> <!--change the ID -->
 
-      <a class="button-nav" href="#">Submit</a>
-      </div> 
+            <label for="form-comment"> <h2>Any allergies ?</h2></label>
+            <textarea id="form-comment" placeholder="Please let us know"></textarea>
+          </section>
+
+          <a class="button-nav" href="joinFinish">Submit</a>
+        </div> 
+
+        <div class="grid-col-2of2">
+          <h1>Login</h1>
+
+          <section>
+           <h2>ID </h2>
+           <textarea id="name" placeholder="Your ID"></textarea> <!--change the ID -->
+
+           <h2>Password </h2>
+           <textarea id="name" placeholder="Your password"></textarea> <!--change the ID -->
+          </section>
+
+          <a class="button-nav" href="joinFinish">Login</a>
+        </div> 
+
+      </div>
 
 
       <div class="grid-row-1of2">
