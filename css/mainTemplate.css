@@ -159,6 +159,11 @@ figure img {
   float: left;
 }
 
+section {
+
+  margin-top: 1em;
+  
+}
 
 section h2 {
   font-family: 'arial_narrowbold';
@@ -188,6 +193,14 @@ ul, li, ol, {
   width: 8em;
   height: 8em;
   margin: 1em;
+
+}
+
+.product-img:hover, .product-img:focus {
+
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 
 
@@ -277,6 +290,13 @@ figcaption{
   border: 0.1em solid #AEBD96;
 }
 
+p.loginInstruct {
+
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 @media (max-width: 42em) {
@@ -308,7 +328,14 @@ figcaption{
   .grid-col-1of2{
 
     float: none;
+    margin-bottom: 5em;
     
+  }
+
+  section {
+
+    margin-top: 1.5em  
+
   }
 
 }
