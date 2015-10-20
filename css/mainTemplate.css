@@ -98,6 +98,12 @@ figure img {
 
 }
 
+img#cartImg {
+  height:auto;
+  width: 15em;
+  max-width: 100%;
+}
+
 .main-nav {
   font-family: 'arial_narrowbold';
   display: block;
@@ -296,6 +302,7 @@ p.loginInstruct {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
