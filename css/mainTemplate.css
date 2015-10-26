@@ -2,6 +2,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+  clear:both;
 }
 
 
@@ -68,6 +69,10 @@ nav {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
 
 	position: static;
@@ -104,10 +109,20 @@ img#cartImg {
   max-width: 100%;
 }
 
+img#farmer {
+  height:auto;
+  width: 15em;
+  max-width: 100%;
+}
+
+img#logo {
+  width: 15em;
+}
+
 .main-nav {
   font-family: 'arial_narrowbold';
   display: block;
-  width: 80%;
+  width: 100%;
   background-color: #F2F2F2;
   color: #AEBD96;
   padding: 1em 1.25em;
@@ -146,6 +161,7 @@ img#cartImg {
   text-align: center;
   display: block;
   margin-bottom: 3em;
+  margin-top: 10em;
 
 }
 
@@ -165,13 +181,16 @@ img#cartImg {
   float: left;
 }
 
+.grid-col-3of2 {
+  text-align: left;
+}
 section {
 
   margin-top: 1em;
   
 }
 
-section h2 {
+section h2, form h2 {
   font-family: 'arial_narrowbold';
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -189,9 +208,11 @@ p {
   max-width: 100%;
 }
 
-ul, li, ol, {
+
+ul {
   font-family: 'arial_narrowregular';
-  color: #6B5C3B
+  color: #6B5C3B;
+  list-style-type: none;
 }
 
 .product-img {
@@ -233,6 +254,7 @@ ul, li, ol, {
   text-decoration: none;
   text-align: center;
   color: #AEBD96;
+  margin: 1em;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -243,7 +265,7 @@ ul, li, ol, {
   border: 0.2em solid #AEBD96;
 }
 
-.newsbox{
+.newsbox, .farmerIntro{
   display: block;
   padding: 2em;
   margin: 1em;
@@ -251,10 +273,12 @@ ul, li, ol, {
 
 }
 
-.newsImg{
+
+.newsImg, .farmerImg{
   margin-right: 1em;
   float: left;
 }
+
 
 .link {
   color: #AEBD96;
@@ -276,6 +300,12 @@ ul, li, ol, {
   width: 10em;
   height: 10em;
   margin: 1em;
+}
+
+.famerText{
+  display: inline-block;
+  margin: 3em;
+  padding: none;
 }
 
 figure {
@@ -302,6 +332,11 @@ p.loginInstruct {
   margin-left: auto;
   margin-right: auto;
 }
+
+textarea {
+  max-width: 100%
+}
+
 
 
 

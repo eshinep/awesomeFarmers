@@ -14,11 +14,9 @@
   <body>
 
     <nav>
-       <figure>
-        <a href="landing.html">
-        <img src="img/logo.png" alt="Farmers logo">
-        </a>
-      </figure>
+      <a href="landing.html">
+        <img id="logo" src="img/logo.png" alt="Farmers logo">
+      </a>
       <a class="main-nav" href="landing.html"> Home</a>
       <a class="main-nav" href="news.html"> News</a>
       <a class ="main-nav" href="browse.html">Browse</a>
@@ -34,22 +32,28 @@
 
         <h1>Order 1</h1>
 
+      <div class="grid-col-1of2">
         <figure>
           <img id="cartImg" src="img/cartIcon.png" alt="cart icon">
         </figure>
+      </div>
 
-        <section>
+      <div class="grid-col-2of2">
+        <form>
           <h2>Please tell us where to send your order to</h2>
-          <h2>Name </h2>
-          <textarea id="name" placeholder="Name"></textarea>
+          <label for="form-name"><h2>Name </h2></label>
+          <input id="name" placeholder="Name"></input>
 
           <h2>Address</h2>
-          <textarea id="name" placeholder="street number, street name"></textarea>
+          <label for="form-streetNo"><p>Street number</p></label>
+          <input id="streetNo" placeholder="street number"></input>
+          <label for="form-StreetName"><p>Street name</p></label>
+          <input id="street" placeholder="street name"></input>
+          <label for="form-postal"><p>Postal code</p></label>
+          <input id="postalCode" placeholder="XXX XXX"></input>
+        </form>
 
-          <label for="form-comment"> <h2>Postal code</h2></label>
-          <textarea id="form-comment" placeholder="XXX XXX"></textarea>
-        </section>
-
+        <a class="button-nav" href="cart.html">Back</a>
         <a class="button-nav" href="payment.html">Next</a>
 
       </div> 

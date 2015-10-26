@@ -14,11 +14,9 @@
   <body>
 
     <nav>
-       <figure>
-        <a href="landing.html">
-        <img src="img/logo.png" alt="Farmers logo">
-        </a>
-      </figure>
+      <a href="landing.html">
+        <img id="logo" src="img/logo.png" alt="Farmers logo">
+      </a>
       <a class="main-nav" href="landing.html"> Home</a>
       <a class="main-nav" href="news.html"> News</a>
       <a class ="main-nav" href="browse.html">Browse</a>
@@ -34,24 +32,9 @@
 
         <h1>My Cart</h1>
 
-         <div class="newsbox">
 
-        <section>
-          <h2> <a href="orderDetail.html" class="link">Order 1</a> </h2>
-
-          <figure>
-            <img id="cartImg" src="img/cartIcon.png" alt="cart icon">
-          </figure>
-           <p>
-            Satsuma Orange x 100, Blood Oranges x40
-        </p>
-
-          <a class="button-nav" href="#">Cancel</a>
-          <a class="button-nav" href="orderDetail.html">Info</a>
-          <a class="button-nav" href="checkOut.html">Pay</a>
-  
-        </section>
-        </div>
+        
+           
 
       </div> 
 
@@ -59,12 +42,34 @@
 
     <div class= grid>
 
-      <div class="grid-row-1of2">
+      <div class="grid-col-1of2">
+        <section>
+
+          <figure>
+            <img id="cartImg" src="img/cartIcon.png" alt="cart icon">
+          </figure>
+        </section>
 
       </div>
 
-      <div class="grid-row-2of2">
-      
+      <div class="grid-col-2of2">
+
+        <section>
+            <h2> <a href="orderDetail.html" class="link">Order 1</a> </h2>
+            <ul>
+              <li><p>5 Satsuma Oranges </p></li>
+              <li><p>2 Blood Oranges</p></li>
+              <li><p>1 bag of carrot</p></li>
+              <li><p>1 sack of Yukon potato</p></li>
+              <li><p>1 box of cranberry</p></li>
+              <li><p>3 Roman tomatos</p></li>
+            </ul>
+
+          <a class="button-nav" href="#">Cancel</a>
+          <a class="button-nav" href="orderDetail.html">Info</a>
+          <a class="button-nav" href="checkOut.html">Pay</a>
+  
+        </section>
         
 
       </div>

@@ -14,15 +14,13 @@
   <body>
 
     <nav>
-       <figure>
-        <a href="landing.html">
-        <img src="img/logo.png" alt="Farmers logo">
-        </a>
-      </figure>
+      <a href="landing.html">
+        <img id="logo" src="img/logo.png" alt="Farmers logo">
+      </a>
       <a class="main-nav" href="landing.html"> Home</a>
       <a class="main-nav" href="news.html"> News</a>
       <a class ="main-nav" href="browse.html">Browse</a>
-      <a class = "main-nav activeLink" href="#">My Cart</a>
+      <a class = "main-nav activeLink" href="cart.html">My Cart</a>
       <a class= "main-nav" href="login.html">Login/Join </a>
       <a class= "main-nav" href="contact.html">Contact Us </a>
 
@@ -34,20 +32,27 @@
 
         <h1>Order 1</h1>
 
-        
-          <h2> <a href="orderDetail.html" class="link">How would you like to pay?</a> </h2>
+      </div>
 
+      <div class="grid-col-1of2">
           <figure>
             <img id="cartImg" src="img/cartIcon.png" alt="cart icon">
           </figure>
 
+      </div>
+
+      <div class="grid-col-2of2">
         <section>
-          <a class="button-nav" href="#">Visa</a>
-          <a class="button-nav" href="#">Masters</a>
-          <a class="button-nav" href="#">Paypal</a>
+          <h2> <a href="orderDetail.html" class="link">How would you like to pay?</a> </h2>
+
+          <a class="button-nav" href="cardInfo.html">Visa</a>
+          <a class="button-nav" href="cardInfo.html">Masters</a>
+          <a class="button-nav" href="cardInfo.html">Paypal</a>
   
         </section>
-        <a class="button-nav" href="bought.html">Finish</a>
+        <a class="button-nav" href="checkOut.html">Back</a>
+        <a class="button-nav" href="#">Finish</a>
+
       </div>
 
       </div> 
