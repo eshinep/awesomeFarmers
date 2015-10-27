@@ -2,9 +2,9 @@
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 184.604 188" enable-background="new 0 0 184.604 188" xml:space="preserve">
+	 viewBox="0 0 184.604 242" enable-background="new 0 0 184.604 242" xml:space="preserve">
 <g id="Layer_2" display="none">
-	<rect x="-855.567" y="-621.8" display="inline" stroke="#FFFFFF" stroke-miterlimit="10" width="2328" height="1662"/>
+	<rect x="-855.567" y="-745.5" display="inline" stroke="#FFFFFF" stroke-miterlimit="10" width="2328" height="1662"/>
 </g>
 <g id="Layer_1">
 	<circle fill="#F1F1F1" stroke="#D07E3A" stroke-width="8" stroke-miterlimit="10" cx="93.212" cy="93.778" r="86.246"/>
@@ -13,5 +13,6 @@
 			<ellipse fill="none" stroke="#D07E3A" stroke-width="8" stroke-miterlimit="10" cx="94.469" cy="96.036" rx="49.469" ry="46.679"/>
 		<circle fill="#D07E3A" cx="93.769" cy="62.378" r="5.618"/>
 	</g>
+	<text transform="matrix(1.3307 0 0 1 37.3298 226.8165)" fill="#D07E3A" font-family="'Playbill'" font-size="53.6416">Orange</text>
 </g>
 </svg>
