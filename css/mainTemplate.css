@@ -94,7 +94,12 @@ nav {
 	width: 20%;
 	height: 100%;
 	background-color: #F2F2F2;
+  overflow-y: auto;
+}
+/*only for scrollable if necessary*/
+nav::-webkit-scrollbar {
 
+  display:none;
 }
 
 a {
@@ -157,6 +162,7 @@ img#card{
   padding: 1em 1.25em;
   border-right: 0.2em solid #D17E3A;
   text-decoration: none;
+  overflow-y:auto;
 }
 
 .main-nav:hover, .main-nav:focus,.main-nav.activeLink, .main-nav.activeLink:hover, .main-nav.activeLink:focus {
@@ -166,7 +172,6 @@ img#card{
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-
 
 
 
