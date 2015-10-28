@@ -88,7 +88,7 @@ body {
 nav {
 
 	position: fixed;
-	padding-top: 5%;
+	padding-top: 1%;
 	top: 0;
 	left: 0;
 	width: 20%;
@@ -139,7 +139,8 @@ img#farmer,img#new {
 }
 
 img#logo {
-  width: 15em;
+
+  margin-right: 1em;
 }
 
 img#card{
@@ -173,7 +174,7 @@ img#card{
 
   position: static;
 	margin-left: 20%;
-  margin-top: 6.5%;
+  margin-top: 2%;
 
 }
 
@@ -189,8 +190,8 @@ img#card{
   height: 3em;
   text-align: center;
   display: block;
-  margin-bottom: 3em;
-  margin-top: 10em;
+  margin-bottom: 5em;
+  margin-top: 5em;
 
 }
 
@@ -250,7 +251,7 @@ ul {
 
 .product-img {
   display: inline-block;
-  width: 8em;
+  width: 10%;
   height: 8em;
   margin: 1em;
 
@@ -306,6 +307,14 @@ ul {
 
 }
 
+.newsbox:after{
+
+  content: "";
+  display: block;
+  clear: both;
+  position: static;
+}
+
 
 .newsImg, .farmerImg{
   margin-right: 1em;
@@ -313,12 +322,21 @@ ul {
   width: 30%;
 }
 
-.farmerIntro,{
+
+.farmerIntro{
   display: block;
   padding: 2em;
   margin-bottom: 2em;
 }
 
+.farmerIntro:after{
+
+  content: "";
+  display: block;
+  clear: both;
+  position: static;
+
+}
 
 .link {
   color: #AEBD96;
@@ -376,7 +394,7 @@ textarea {
 
 
 
-@media (max-width: 42em) {
+@media (max-width: 30em) {
 
 	nav {
 
@@ -413,6 +431,11 @@ textarea {
 
     margin-top: 1.5em  
 
+  }
+
+  .product-img {
+
+    width: 50%;
   }
 
 }
