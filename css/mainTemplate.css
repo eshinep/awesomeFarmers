@@ -132,7 +132,7 @@ img#cartImg {
   max-width: 100%;
 }
 
-img#farmer,img#new {
+img#farmer,img.new {
   height:auto;
   width: auto;
   max-width: 100%;
@@ -220,6 +220,13 @@ section {
   
 }
 
+section:after {
+  content: "";
+  display: block;
+  clear: both;
+  position: static;
+}
+
 section h2, form h2 {
   font-family: 'chunkfiveroman';
   font-size: 2em;
@@ -250,8 +257,6 @@ ul {
 }
 
 .product-img {
-  display: inline-block;
-  width: 10%;
   height: 8em;
   margin: 1em;
 
@@ -315,13 +320,43 @@ ul {
   position: static;
 }
 
+.farmerIntro h2 {
+  text-align:center;
+}
+
+.farmerIntro figure {
+  max-width:100%;
+}
 
 .newsImg, .farmerImg{
   margin-right: 1em;
   float: left;
   width: 30%;
+  min-width: 15em;
 }
 
+/* only for firefox pictures*/
+@-moz-document url-prefix() { 
+  figure {
+     margin: 0;
+  }
+}
+
+.orderDetailImg {
+
+  float: left;
+  width: 10em;
+
+}
+
+.bannerImage {
+  width: 100%;
+  background-image: url("img/produceBanner.jpg");
+  height: 6em;
+  margin-top: -1em;
+  margin-right: -2em;
+  margin-left: 2em;
+}
 
 .farmerIntro{
   display: block;
@@ -394,7 +429,7 @@ textarea {
 
 
 
-@media (max-width: 30em) {
+@media (max-width: 34em) {
 
 	nav {
 
@@ -420,12 +455,20 @@ textarea {
 		text-align: center;
 	}
 
-  .grid-col-1of2{
+  .grid-col-1of2, .grid-col-2of2, .grid-row-1of2{
 
     float: none;
+    width: 100%;
+    text-align: center;
     margin-bottom: 5em;
     
   }
+
+ .grid-row-1of1 {
+    height:initial;
+    margin-bottom: 1em;
+
+ }
 
   section {
 
@@ -435,7 +478,25 @@ textarea {
 
   .product-img {
 
-    width: 50%;
+    width: 8em;
+  }
+
+  .orderDetailImg {
+
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+
+  }
+
+  .newsImg {
+
+    width: 100%;
+  }
+
+  .bannerImage {
+
+    display: none;
   }
 
 }
