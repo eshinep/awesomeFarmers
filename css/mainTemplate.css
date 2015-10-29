@@ -137,7 +137,7 @@ img#cartImg {
   max-width: 100%;
 }
 
-img#farmer,img.new {
+img#farmer,img.new, img.farmer {
   height:auto;
   width: auto;
   max-width: 100%;
